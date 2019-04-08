@@ -9,9 +9,6 @@ def second_challenge
   }
 
   #code your solution here!
-  puts groceries.flatten
-
-
 end
 
 binding.pry
