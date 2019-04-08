@@ -9,6 +9,7 @@ def second_challenge
   }
 
   #code your solution here!
-end
+  
+  binding.pry
 
-binding.pry
+end
