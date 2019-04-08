@@ -23,7 +23,7 @@ def first_challenge
   }
 
   #remember to return your newly altered contacts hash!
-  puts contacts["Freddy Mercury"][:favorite_icecream_flavors]
+  puts contacts["Freddy Mercury"]
   #contacts
 end
 
