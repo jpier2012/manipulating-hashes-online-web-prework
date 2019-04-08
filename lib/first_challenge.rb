@@ -17,7 +17,8 @@ def first_challenge
   contacts.each {|contact, info|
     info.each {|attribute, value|
       value.delete_if {|preference|
-      preference == "strawberry"
+        preference == "strawberry"
+      }
     }
   }
 
