@@ -16,7 +16,8 @@ def first_challenge
   #your code here
   contacts.each {|contact, info|
     info.each {|attribute, value|
-      value.delete_if {|preference}
+      value.delete_if {|preference|
+      preference == "strawb"}
     }
 
   #remember to return your newly altered contacts hash!
