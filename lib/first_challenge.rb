@@ -18,6 +18,7 @@ def first_challenge
     info.each {|attribute, data|
       if attribute == :favorite_icecream_flavors
         data.delete("strawberry")
+      end
     }
   }
 
