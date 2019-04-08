@@ -16,9 +16,9 @@ def first_challenge
   #your code here
   contacts.each {|contact, info|
     info.each {|attribute, data|
-      if attribute == :favorite_icecream_flavors
-        data.delete("strawberry")
-      end
+        data.delete_if {|element|
+        element == "strawberry"
+      }
     }
   }
 
