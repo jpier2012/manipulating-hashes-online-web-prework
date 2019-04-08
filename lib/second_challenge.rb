@@ -13,3 +13,5 @@ def second_challenge
   binding.pry
 
 end
+
+second_challenge
